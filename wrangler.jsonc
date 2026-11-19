@@ -1,0 +1,17 @@
+{
+  // Pengaturan server Sales Quest. Nama Worker di Cloudflare harus sama persis: salesaccess-api
+  "name": "salesaccess-api",
+  "main": "worker.js",
+  "compatibility_date": "2025-09-01",
+  "workers_dev": true,
+  "vars": {
+    "CHAT_ID": "-1003958419736"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "salesaccess-db",
+      "database_id": "65214a0b-0131-4dcd-84b3-3a24246da7d7"
+    }
+  ]
+}
